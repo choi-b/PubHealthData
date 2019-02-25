@@ -1,3 +1,4 @@
+## Update 2.24.19
 #learn data
 table(Final_Data$UCD...Drug.Alcohol.Induced.Cause)
 table(Final_Data[,9:10]) #
@@ -58,7 +59,7 @@ tbl4 = table(droplevels(Final_Data[,c(1,7)]))
 library(dplyr)
 library(ggplot2)
 
-#Count of Deaths in Each Cause (Except 09) by Gender
+# Count of Deaths in Each Cause by Gender
 tbl %>%
   as.data.frame()  %>%
   ggplot(., aes(x= UCD...Drug.Alcohol.Induced.Cause.Code , y = Freq)) + 
