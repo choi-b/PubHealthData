@@ -32,7 +32,7 @@ The categorical variables were rearranged as dummy variables (values 0 or 1), so
 
 #### EXPLORATORY ANALYSIS
 
-The gclus library helps us see the correlations between the variables. The cpairs function can be used, but it doesn't give a very descriptive plot as the data is strongly skewed. (too many O9 values)
+The cpairs function in the gclus library helps us see the correlations between the variables.
 
 The dplyr and ggplot2 were used for general EDA.
 
