@@ -36,10 +36,7 @@ The cpairs function in the gclus library helps us see the correlations between t
 
 The dplyr and ggplot2 were used for general EDA.
 
-[![deathcount_vs_cause](https://user-images.githubusercontent.com/32057260/53530762-ee6f9c80-3abe-11e9-950c-e54678461391.png)
-](url)
-
-![death_cause_byregion](https://user-images.githubusercontent.com/32057260/53530859-4a3a2580-3abf-11e9-9bf1-b95d1952db05.png)
+[![deathcount_vs_cause](https://user-images.githubusercontent.com/32057260/53530762-ee6f9c80-3abe-11e9-950c-e54678461391.png) ![death_cause_byregion](https://user-images.githubusercontent.com/32057260/53530859-4a3a2580-3abf-11e9-9bf1-b95d1952db05.png)
 
 
 #### MULTIVARIATE ANALYSIS
