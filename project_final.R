@@ -13,6 +13,9 @@ table(Final_Data[,c(5,10)]) #count of deaths in each category by gender
 table(Final_Data[,c(1,4)]) #count of deaths by age, region
 table(Final_Data[,c(1,7)]) #region/year
 
+#clean clean clean
+work2 = Final_Data[-c(1,3,5,8,9)]
+
 #test run with dummy variables
 binary_work = model.matrix( ~ Census.Region.Code + Gender.Code + 
                               UCD...Drug.Alcohol.Induced.Cause.Code, work2)[,-1]
@@ -27,7 +30,7 @@ work4 = work4[,-1]
 colnames(work4) = c("Age","Year","R2","R3","R4","GenderM","A9","D1","D2","D4","D9","O9")
 #work4
 
-colnames(work2) = c("Region","Age","Gender","Year","Cause_Death")
+#colnames(work2) = c("Region","Age","Gender","Year","Cause_Death")
 
 #######################################
 #######################################
@@ -64,7 +67,7 @@ tbl4 = table(droplevels(Final_Data[,c(1,7)]))
 library(dplyr)
 library(ggplot2)
 
-# Count of Deaths in Each Cause by Gender
+# Count of Deaths in Each Cause (Except O9) by Gender
 tbl %>%
   as.data.frame()  %>%
   ggplot(., aes(x= UCD...Drug.Alcohol.Induced.Cause.Code , y = Freq)) + 
