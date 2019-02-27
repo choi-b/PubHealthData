@@ -9,7 +9,6 @@ The link to the original dataset can be found [here.](https://wonder.cdc.gov/mcd
 
 The dataset used in this analysis has 100,000 randomly sampled rows from the original 44 million observations in the original CDC WONDER Multiple Cause of Death (Detailed Mortality) dataset. 
 
-
 There were 5 variables involved in the analysis: 
   1. Census Region (West, South, Northeast, Midwest) 
   2. Age of deceased
@@ -19,7 +18,7 @@ There were 5 variables involved in the analysis:
   
 For the cause of death variable, the focus was on causes that were drug and alcohol-related. 
 
-Cause of Death Code/Full Description:
+#### Cause of Death Code/Full Description:
   1. A1 - Alcohol poisonings (overdose) (X45, X65, Y15)
   2. A9 - All other alcohol-induced causes
   3. D1 - Drug poisonings (overdose) Unintentional (X40-X44)
