@@ -37,8 +37,8 @@ The cpairs function in the gclus library helps us see the correlations between t
 The dplyr and ggplot2 were used for general EDA.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/32057260/53530762-ee6f9c80-3abe-11e9-950c-e54678461391.png" width="350" title="hover text">
-  <img src="https://user-images.githubusercontent.com/32057260/53530859-4a3a2580-3abf-11e9-9bf1-b95d1952db05.png" width="350" alt="accessibility text">
+  <img src="https://user-images.githubusercontent.com/32057260/53530762-ee6f9c80-3abe-11e9-950c-e54678461391.png" width="350">
+  <img src="https://user-images.githubusercontent.com/32057260/53530859-4a3a2580-3abf-11e9-9bf1-b95d1952db05.png" width="350">
 </p>
 
 #### MULTIVARIATE ANALYSIS
