@@ -1,4 +1,9 @@
 # Update 2.27.19
+
+#load data
+load("Final_Data.RData")
+summary(Final_Data)
+
 #learn data
 table(Final_Data$UCD...Drug.Alcohol.Induced.Cause)
 table(Final_Data[,9:10]) #
