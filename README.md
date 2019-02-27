@@ -36,6 +36,10 @@ The cpairs function in the gclus library helps us see the correlations between t
 
 The dplyr and ggplot2 were used for general EDA.
 
+https://github.com/vivabrian/PubHealthData/issues/1#issue-415377786
+
+
+
 #### MULTIVARIATE ANALYSIS
 
 The following multivariate techniques were primarily used in the analysis.
