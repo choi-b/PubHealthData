@@ -50,3 +50,9 @@ The multivariate techniques primarily used in the analysis include:
 
 # Principal Components Analysis
 
+Packages used: 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/32057260/53532583-6771f280-3ac5-11e9-94cf-ce06c6afe22b.png" width="350">
+  <img src="https://user-images.githubusercontent.com/32057260/53532586-69d44c80-3ac5-11e9-81e8-50351839d25e.png width="350">
+</p>
