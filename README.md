@@ -49,7 +49,7 @@ The multivariate techniques primarily used in the analysis include:
 
 # Principal Components Analysis
 
-Using the **prcomp** function, *factoextra* library.
+Using the **prcomp** function, and *factoextra* library.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/32057260/53532583-6771f280-3ac5-11e9-94cf-ce06c6afe22b.png" width="350">
@@ -58,7 +58,7 @@ Using the **prcomp** function, *factoextra* library.
 
 # Multiple Correspondence Analysis
 
-Using the **MCA** function, *factoextra* library.
+Using the **MCA** function, and *factoextra* library.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/32057260/53533018-25e24700-3ac7-11e9-9383-1d68010b8e64.png" width="350">
@@ -68,4 +68,4 @@ Using the **MCA** function, *factoextra* library.
 
 # Canonical Correlations Analysis
 
-Using the libraries *dotcall64, fields, and CCA*.
+Using the **cancor** function, libraries *dotcall64, fields, CCA, and heplots*.
