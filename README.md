@@ -42,7 +42,7 @@ The dplyr and ggplot2 were used for general EDA.
 
 #### MULTIVARIATE ANALYSIS
 
-The following multivariate techniques were primarily used in the analysis.
+The multivariate techniques primarily used in the analysis include:
   1. Principal Component Analysis (PCA) 
   2. PCA with Varimax Rotation
   3. Multiple Correspondence Analysis (MCA)
