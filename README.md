@@ -58,4 +58,12 @@ Using the **prcomp** function, *factoextra* library.
 
 # Multiple Correspondence Analysis
 
+Using the **MCA** function, *factoextra* library.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/32057260/53533018-25e24700-3ac7-11e9-9383-1d68010b8e64.png" width="350">
+  <img src="https://user-images.githubusercontent.com/32057260/53533017-25e24700-3ac7-11e9-9dbf-bcb0a1758e26.png" width="350">
+</p>
+
+
 # Canonical Correlations Analysis
