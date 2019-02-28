@@ -100,6 +100,7 @@ tbl3 %>%
         axis.title=element_text(size=14,face="bold"),
         legend.text=element_text(size=13))
 
+#Count of Deaths in Each Region by Year
 tbl4 %>%
   as.data.frame()  %>%
   ggplot(., aes(x= Year , y = Freq)) + 
