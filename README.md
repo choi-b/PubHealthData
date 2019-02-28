@@ -33,7 +33,7 @@ The categorical variables were rearranged as dummy variables (values 0 or 1), so
 
 The cpairs function in the gclus library helps us see the correlations between the variables.
 
-The dplyr and ggplot2 were used for general EDA.
+The *dplyr* and *ggplot2* were used for general EDA.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/32057260/53530762-ee6f9c80-3abe-11e9-950c-e54678461391.png" width="350">
