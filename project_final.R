@@ -241,11 +241,22 @@ ggplot(data = mca_obs_df, aes(x = Dim.1, y = Dim.2)) +
 library(dotCall64)
 library(fields)
 library(CCA)
+library(heplots)
 
 #FIRST TIME 
 #separate into set 1 (region variables) and set 2 (rest)
 X = work4[,3:5] #region vars
 Y = work4[-c(3:5)]
+
+#correl <- matcor(X,Y)
+#correl
+#img.matcor(correl, type = 2)
+cca = cancor(X,Y)
+cca
+
+#heplot
+heplot(cca)
+abline(h=0,v=0)
 
 ##################
 #Scaled vers. (The same - I think)
@@ -253,21 +264,9 @@ Xs = scale(X)
 Ys = scale(Y)
 #heplot (Scaled)
 ccaS = cancor(Xs,Ys)
-heplot(cca)
+heplot(ccaS)
 abline(h=0,v=0)
-##################
 
-correl <- matcor(X,Y)
-correl
-img.matcor(correl, type = 2)
-
-cca = cc(X,Y)
-cca = cancor(X,Y)
-cca
-
-#heplot
-heplot(cca)
-abline(h=0,v=0)
 
 #plot variable
 plt.var(cca, d1=1, d2=2, 
