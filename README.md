@@ -69,3 +69,8 @@ Using the **MCA** function, and *factoextra* library.
 # Canonical Correlations Analysis
 
 Using the **cancor** function, libraries *dotcall64, fields, CCA, and heplots*.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/32057260/53533828-57a8dd00-3aca-11e9-9d3d-a81356009ebb.png" width="350">
+  <img src="https://user-images.githubusercontent.com/32057260/53533829-58da0a00-3aca-11e9-9a6e-b0784053487b.png" width="350">
+</p>
