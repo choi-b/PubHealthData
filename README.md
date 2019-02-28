@@ -40,9 +40,7 @@ The dplyr and ggplot2 were used for general EDA.
   <img src="https://user-images.githubusercontent.com/32057260/53530859-4a3a2580-3abf-11e9-9bf1-b95d1952db05.png" width="350">
 </p>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/32057260/53532116-9dae7280-3ac3-11e9-9498-77faf60267af.png" width="350" length="500">
-</p>
+![alt text](https://user-images.githubusercontent.com/32057260/53532116-9dae7280-3ac3-11e9-9498-77faf60267af.png)
 
 #### MULTIVARIATE ANALYSIS
 
