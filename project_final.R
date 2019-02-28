@@ -27,6 +27,9 @@ numeric = work2[,c(2,4)]
 work4 = merge(numeric,binary_work,by = "row.names", all = TRUE)
 work4 = work4[,-1]
 
+#delete missing values
+work4 = na.omit(work4)
+
 colnames(work4) = c("Age","Year","R2","R3","R4","GenderM","A9","D1","D2","D4","D9","O9")
 #work4
 
@@ -186,7 +189,6 @@ work5 = work4[-c(1,2)]
 cols = c("R2", "R3", "R4", "GenderM","A9","D1","D2","D4","D9","O9")
 work5[cols] = lapply(work5[cols], factor)
 
-
 library(FactoMineR)
 mca = MCA(work5, graph = FALSE)
 summary(mca)
@@ -196,8 +198,6 @@ fviz_mca_var(mca, choice = "mca.cor",
              repel = TRUE, # Avoid text overlapping (slow)
              ggtheme = theme_minimal())
 
-
-
 cats = apply(work5, 2, function(x) nlevels(as.factor(x)))
 # data frame with variable coordinates
 mca_vars_df = data.frame(mca$var$coord, Variable = rep(names(cats), cats))
@@ -206,6 +206,7 @@ mca_obs_df = data.frame(mca$ind$coord)
 
 # plot of variable categories
 # region, gender, and O9 are highly correlated.
+library(ggrepel)
 par(mfrow=c(1,1))
 ggplot(data=mca_vars_df, 
        aes(x = Dim.1, y = Dim.2, label = rownames(mca_vars_df))) +
