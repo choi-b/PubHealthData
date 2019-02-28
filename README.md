@@ -2,7 +2,7 @@
 
 This is an analysis motivated by the American Statistical Association (ASA)'s Public Health Data Challenge using a dataset from the CDC.
 
-Motivation: "As of 2016,  2.1 million Americans have an opioid use disorder, and drug overdose deaths are now the leading cause of injury and death in the United States. But some of the country’s top minds are working to fight this epidemic, and statisticians are helping to lead the charge." - ASA
+**Motivation:** *"As of 2016,  2.1 million Americans have an opioid use disorder, and drug overdose deaths are now the leading cause of injury and death in the United States. But some of the country’s top minds are working to fight this epidemic, and statisticians are helping to lead the charge." - ASA*
 
 The link to the challenge can be found [here.](https://thisisstatistics.org/public-health-data-challenge/)
 The link to the original dataset can be found [here.](https://wonder.cdc.gov/mcd.html)
