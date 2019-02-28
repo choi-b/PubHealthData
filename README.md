@@ -44,9 +44,8 @@ The *dplyr* and *ggplot2* libraries were used for general EDA.
 
 The multivariate techniques primarily used in the analysis include:
   1. Principal Component Analysis (PCA) 
-  2. PCA with Varimax Rotation
-  3. Multiple Correspondence Analysis (MCA)
-  4. Canonical Correlations Analysis (CCA) - once with region vs. rest, once with causes vs. rest.
+  2. Multiple Correspondence Analysis (MCA)
+  3. Canonical Correlations Analysis (CCA) - once with region vs. rest, once with causes vs. rest.
 
 # Principal Components Analysis
 
