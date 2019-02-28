@@ -1,8 +1,8 @@
-# CDC Public Health Data Challenge
+# Public Health Data Challenge
 
-This is an analysis motivated by the American Statistical Association (ASA)'s Public Health Data Challenge using a dataset from the CDC.
+This is an analysis motivated by the American Statistical Association (ASA)'s Public Health Data Challenge using a dataset from the Centers for Disease Control and Prevention (CDC).
 
-Motivation: "As of 2016,  2.1 million Americans have an opioid use disorder, and drug overdose deaths are now the leading cause of injury and death in the United States. But some of the country’s top minds are working to fight this epidemic, and statisticians are helping to lead the charge." - ASA
+**Motivation:** *"As of 2016,  2.1 million Americans have an opioid use disorder, and drug overdose deaths are now the leading cause of injury and death in the United States. But some of the country’s top minds are working to fight this epidemic, and statisticians are helping to lead the charge." - ASA*
 
 The link to the challenge can be found [here.](https://thisisstatistics.org/public-health-data-challenge/)
 The link to the original dataset can be found [here.](https://wonder.cdc.gov/mcd.html)
@@ -33,7 +33,7 @@ The categorical variables were rearranged as dummy variables (values 0 or 1), so
 
 The cpairs function in the gclus library helps us see the correlations between the variables.
 
-The dplyr and ggplot2 were used for general EDA.
+The *dplyr* and *ggplot2* libraries were used for general EDA.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/32057260/53530762-ee6f9c80-3abe-11e9-950c-e54678461391.png" width="350">
@@ -42,11 +42,30 @@ The dplyr and ggplot2 were used for general EDA.
 
 #### MULTIVARIATE ANALYSIS
 
-The following multivariate techniques were primarily used in the analysis.
+The multivariate techniques primarily used in the analysis include:
   1. Principal Component Analysis (PCA) 
-  2. PCA with Varimax Rotation
-  3. Multiple Correspondence Analysis (MCA)
-  4. Canonical Correlations Analysis (CCA) - once with region vs. rest, once with causes vs. rest.
+  2. Multiple Correspondence Analysis (MCA)
+  3. Canonical Correlations Analysis (CCA) - once with region vs. rest, once with causes vs. rest.
 
 # Principal Components Analysis
 
+Using the **prcomp** function, *factoextra* library.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/32057260/53532583-6771f280-3ac5-11e9-94cf-ce06c6afe22b.png" width="350">
+  <img src="https://user-images.githubusercontent.com/32057260/53532586-69d44c80-3ac5-11e9-81e8-50351839d25e.png" width="350">
+</p>
+
+# Multiple Correspondence Analysis
+
+Using the **MCA** function, *factoextra* library.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/32057260/53533018-25e24700-3ac7-11e9-9383-1d68010b8e64.png" width="350">
+  <img src="https://user-images.githubusercontent.com/32057260/53533017-25e24700-3ac7-11e9-9dbf-bcb0a1758e26.png" width="350">
+</p>
+
+
+# Canonical Correlations Analysis
+
+Using the libraries *dotcall64, fields, and CCA*.
