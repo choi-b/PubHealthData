@@ -1,4 +1,4 @@
-# CDC Public Health Data Challenge
+# Public Health Data Challenge
 
 This is an analysis motivated by the American Statistical Association (ASA)'s Public Health Data Challenge using a dataset from the CDC.
 
